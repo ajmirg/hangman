@@ -18,6 +18,7 @@
         <!-- Hidden values to be used by JS -->
         <input type="hidden" id="answer" value="{{$challenge->phrase}}">
         <input type="hidden" id="level" value="{{$challenge->level}}">
+        <input type="hidden" id="page" value="play">
 
         <!-- Display buttons for the characters in the challenge phrase -->
         @foreach ((str_split($challenge->phrase)) as $char)
@@ -52,5 +53,7 @@
     </div>
 
 </div>
+<script>
 
+</script>
 @endsection

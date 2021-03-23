@@ -18,8 +18,14 @@ $(document).ready(function(){
 
     function myTimerSpeak(){
         var utterThis = new SpeechSynthesisUtterance(timer);
-        synth.speak(utterThis);
+        
+        if ( $( "#page" ).length ) {
+            if($("#page").val() == "play"){
+                synth.speak(utterThis);
 
+            }    
+
+        }
     }
 
 
