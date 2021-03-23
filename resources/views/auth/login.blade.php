@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <br><br>
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div class="card-header"><h5>{{ __('Login') }}</h5></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -58,12 +58,13 @@
                                     {{ __('Login') }}
                                 </button>
 
+                                <a href="/register" type="button" class="btn btn-secondary"> Or, register me!</a>
+
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
-                                <a href="/register">No account? Register me!</a>
                             </div>
                         </div>
                     </form>

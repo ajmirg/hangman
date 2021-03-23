@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <br><br>
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header"><h5>{{ __('Register') }}</h5></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -67,6 +67,8 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                                <a href="/login" type="button" class="btn btn-secondary"> Or, log me in!</a>
+
                             </div>
                         </div>
                     </form>

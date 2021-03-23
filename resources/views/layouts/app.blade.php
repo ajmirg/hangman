@@ -27,9 +27,9 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+        <nav class="navbar navbar-expand-md navbar-dark shadow-sm ">
+            <div class="container ">
+                <a class="navbar-brand " href="{{ url('/') }}">
                     <h6>Hangman</h6>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -84,7 +84,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4 px-4">
             @yield('content')
         </main>
 
@@ -147,8 +147,7 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright: Ajmir G Hossen
-      <a class="text-dark" href="https://hangman.com/">hangman.com</a>
+      © 2021 Copyright: Ajmir G Hossen
     </div>
     <!-- Copyright -->
   </footer>
