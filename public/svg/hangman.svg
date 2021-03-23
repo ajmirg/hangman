@@ -1,0 +1,18 @@
+<svg width="404" height="498" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <line  style="display:none" stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="rope" y2="245.33334" x2="326.16667" y1="61.33333" x1="326.16667" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="6" fill="none"/>
+  <rect  style="display:none" stroke="#000" transform="rotate(-89.75061798095703 328.3816528320312,261.2471008300781) " id="neck" height="18" width="74.40387" y="252.24709" x="291.17971" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#FFB27C"/>
+  <rect  style="display:none" stroke="#000" transform="rotate(-89.75061798095703 314.3816528320312,381.2471008300781) " id="left_leg" height="18" width="74.40387" y="372.24709" x="277.17971" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#FFB27C"/>
+  <rect  style="display:none" stroke="#000" transform="rotate(-89.75061798095703 345.3816528320312,383.2471008300781) " id="right_leg" height="18" width="74.40387" y="374.24709" x="308.17971" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#FFB27C"/>
+  <rect  style="display:none" stroke="#000" fill-opacity="null" transform="rotate(-70.23729705810547 293.38165283203125,302.2471008300782) " id="left_arm" height="18" width="74.40387" y="293.24709" x="256.17971" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#529D94"/>
+  <rect  style="display:none" fill-opacity="null" stroke="#000" transform="rotate(-110.835693359375 363.38165283203125,307.2471008300781) " id="right_arm" height="18" width="74.40387" y="298.24709" x="326.17971" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#6D97AB"/>
+  <rect  style="display:none" stroke="#000" id="gallow1" height="458.00003" width="23" y="34.33331" x="60.16667" opacity="undefined" fill="#845335"/>
+  <rect  style="display:none" id="gallow2" height="25" width="336" y="39.33333" x="18.16667" opacity="undefined" stroke="#000" fill="#845335"/>
+  <ellipse  style="display:none" ry="39.5" rx="30.5" id="head" cy="206.83333" cx="326.66667" opacity="undefined" stroke="#000" fill="#FABA6F"/>
+  <rect style="display:none" rx="23" stroke="#000" id="body" height="102" width="66" y="253.33334" x="294.16667" opacity="undefined" fill="#5B9BA2"/>
+  <ellipse style="display:none" stroke="#000" ry="1.5" rx="15" id="rope_neck" cy="249.83336" cx="324.16666" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="6" fill="none"/>
+  <rect style="display:none" stroke="#000" id="gallow3" height="25" width="246" y="467.33333" x="6.16667" opacity="undefined" fill="#845335"/>
+ </g>
+</svg>
