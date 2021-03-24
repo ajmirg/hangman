@@ -32,10 +32,21 @@
         <br><br><br><br>
 
         <!-- Display keyboard -->
+        <table>
         @foreach ($letters as $letter)
-            <button  class="btn btn-primary keypad">{{$letter}}</button>
+            
+                @if($loop->first)
+                    <tr>
+                @endif    
+                    <td><button  class="btn btn-primary keypad">{{$letter}}</button></td>
+                @if($loop->last)
+                    </tr>
+                @elseif(fmod($loop->iteration,7) == 0)
+                    </tr><tr>
+                @endif
+    
         @endforeach
-
+        </table>
         <br><br>
 
         <!-- Show Win or Loose -->
